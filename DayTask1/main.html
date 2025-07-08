@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mert Bilgisayar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Mert Bilgisayar</h1>
+
+    <h2>Kullanıcı</h2>
+    <input type="text" id="name" placeholder="isim" />
+    <input type="number" id="age" placeholder="yaş" />
+    <input type="text" id="job" placeholder="meslek" />
+
+    <button onclick="saveUser()">Kaydet</button>
+    <div id="userInfo">kayıtlı kişi yok</div>
+
+    <h2>Ürünler</h2>
+    <div id="productList"></div>
+
+    <h2>Sepetim</h2>
+    <ul id="cartList"></ul>
+    <p><strong>Toplam Fiyat:</strong> <span id="totalPrice">0</span> ₺</p>
+
+    <script src="day1.js"></script>
+  </body>
+</html>

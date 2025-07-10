@@ -22,6 +22,6 @@ for (let i = 1; i < 1000000; i++) {
   }
 }
 
-//sayıyı 837799 , en uzun zinciri 525
+//sayıyı 837799 , en uzun zinciri 525 buldum
 console.log(`En uzun zinciri üreten sayı: ${sayi}`);
 console.log(`Zincir uzunluğu: ${enUzun}`);
